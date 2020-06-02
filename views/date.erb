@@ -1,0 +1,9 @@
+<h1>Today</h1>
+<%time = Time.new%>
+
+<%day = time.strftime("%A")%>
+<%num_day = time.strftime("%d")%>
+<%month = time.strftime("%B")%>
+<%year = time.strftime("%Y")%>
+
+<p>The date is <%=day%>, <%=month%> <%=num_day%>, <%=year%></p>
